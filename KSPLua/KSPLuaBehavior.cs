@@ -15,14 +15,14 @@ namespace KSPLua
     public class KSPLuaBehavior : MonoBehaviour
     {
 
-        private const string x86TargetPath = @"KSP_Data/Mono/lua5.1";
-        private const string x64TargetPath = @"KSP_x64_Data/Mono/lua5.1";
+        private const string x86TargetPath = @"KSP_Data/Mono/lua5.2";
+        private const string x64TargetPath = @"KSP_x64_Data/Mono/lua5.2";
 
-        private const string x86WinSourcePath = @"bin/win/x86/lua5.1";
-        private const string x64WinSourcePath =  @"bin/win/x64/lua5.1";
+        private const string x86WinSourcePath = @"bin/win/x86/lua5.2";
+        private const string x64WinSourcePath =  @"bin/win/x64/lua5.2";
 
-        private const string x86LinuxSourcePath = @"bin/linux/x86/lua5.1";
-        private const string x64LinuxSourcePath = @"bin/linux/x64/lua5.1";
+        private const string x86LinuxSourcePath = @"bin/linux/x86/lua5.2";
+        private const string x64LinuxSourcePath = @"bin/linux/x64/lua5.2";
 
         public void Awake()
         {
